@@ -1,0 +1,27 @@
+{% extends 'master.html' %}
+{% load crispy_forms_filters %}
+
+
+{% block title %}
+	<title>Update Customer</title>
+{% endblock %}
+
+
+{% block content %}
+	<div class="container">
+   <div class="row justify-content-center">
+       <div class="col-sm-4 border px-3 py-3 mt-3"> {% comment %}px-3 is padding to the x axis py-3 is padding to y axis{% endcomment %}
+           {% comment %} use django classes post for secured data and get does not make data secured{% endcomment %}
+           <form action="" method="post" enctype="multipart/form-data">
+               {% csrf_token %}
+               {{ form | crispy }}
+               <button class="btn btn-success w-100">Update Customer</button>
+           </form>
+       </div>
+   </div>
+    </div>
+{% endblock %}
+
+
+{% comment %} this is the form to update which is completely the same as customer form just copy and paste then change the adds to update as step1
+ step 2 go to url.py {% endcomment %}
