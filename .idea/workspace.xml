@@ -24,6 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jackiecodereng/Djangoprojectsfin-.git",
+    "accountId": "cf7c62fe-e171-4c07-9482-bab73fffa2f6"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -143,7 +149,7 @@
       <workItem from="1731756691110" duration="778000" />
       <workItem from="1731757514763" duration="6583000" />
       <workItem from="1731772932629" duration="3692000" />
-      <workItem from="1731828851195" duration="6088000" />
+      <workItem from="1731828851195" duration="6839000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
