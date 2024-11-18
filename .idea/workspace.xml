@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b3275be-0ca4-4509-b780-5057d2db8588" name="Changes" comment="changes" />
+    <list default="true" id="2b3275be-0ca4-4509-b780-5057d2db8588" name="Changes" comment="changes1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sacco/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sacco/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sacco/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sacco/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,12 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jackiecodereng/Djangoprojectsfin-.git",
-    "accountId": "cf7c62fe-e171-4c07-9482-bab73fffa2f6"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jackiecodereng&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jackiecodereng/Djangoprojectsfin-.git&quot;,
+    &quot;accountId&quot;: &quot;cf7c62fe-e171-4c07-9482-bab73fffa2f6&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -48,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Administrator/Desktop/my project",
+    "last_opened_file_path": "C:/Users/Administrator/PycharmProjects/djangoProject2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -149,7 +160,8 @@
       <workItem from="1731756691110" duration="778000" />
       <workItem from="1731757514763" duration="6583000" />
       <workItem from="1731772932629" duration="3692000" />
-      <workItem from="1731828851195" duration="6839000" />
+      <workItem from="1731828851195" duration="7999000" />
+      <workItem from="1731907629538" duration="4616000" />
     </task>
     <task id="LOCAL-00001" summary="changes">
       <option name="closed" value="true" />
@@ -159,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731844766822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changes1">
+      <option name="closed" value="true" />
+      <created>1731846239127</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731846239127</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +187,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="changes1" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -176,6 +197,11 @@
           <url>file://$PROJECT_DIR$/sacco/views.py</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sacco/admin.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
