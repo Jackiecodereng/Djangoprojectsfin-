@@ -15,9 +15,23 @@
             <th>Last Name</th>
             <th>Email</th>
             <th>Joining Date</th>
-            <th> Delete</th>
-             <th> Update</th>
-            <th> Deposit</th>
+            {% if  perms.Sacco.delete_customer %}
+            	<th> Delete</th>
+            {% endif %} 
+            {% if  perms.Sacco.change_customer %}
+            	 <th> Update</th>
+            {% endif %} 
+            {% if  perms.Sacco.add_deposit %}
+            	 <th> Deposit</th>
+            {% endif %} 
+            {% if  perms.Sacco.view_customer %}
+            <th> Details</th>
+            {% endif %} 
+            
+            
+            
+            
+           
             <th> Details</th>
         </tr>
     
@@ -28,18 +42,30 @@
                 <td>{{ customer.last_name}}</td>
                 <td>{{ customer.email }}</td>
                 <td>{{ customer.created_at |date:"d-m-Y" }}</td>
-                <td>
+                {% if perms.Sacco.delete_customer %}
+                	<td>
                     <a class ="btn btn-primary btn-sm " href="{% url 'delete_customer' customer.id %}" >Remove</a>
                 </td>
-            <td>
+                {% endif %} 
+                {% if perms.Sacco.change_customer %}
+                	 <td>
                     <a class ="btn btn-success btn-sm" href="{% url 'update_customer' customer.id %}" >Update</a>
                 </td>
-             <td>
+                {% endif %} 
+               {% if perms.Sacco.add_deposit %}
+                	 <td>
                     <a class ="btn btn-dark btn-sm" href="{% url 'deposit' customer.id %}" >Deposit</a>
                 </td>
-             <td>
+                {% endif %} 
+               {% if perms.Sacco.view_customer %}
+                	  <td>
                     <a class ="btn btn-danger btn-sm" href="{% url 'customer_details' customer.id %}" >Details</a>
                 </td>
+                {% endif %} 
+                
+           
+            
+           
             </tr>
         {% empty %}
         	<p>No Customers In the Sacco</p>

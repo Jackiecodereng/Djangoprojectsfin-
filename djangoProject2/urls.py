@@ -29,7 +29,9 @@ urlpatterns = [
     path('customer/details/<int:customer_id>', views.customer_details, name='customer_details'),
     path('customer/Update/<int:customer_id>', views.update_customer, name='update_customer'),
     path('customer/Deposits/<int:customer_id>', views.deposit, name='deposit'),
-   path('customer/Search', views.search_customer, name='search_customer'),
+    path('customer/Search', views.search_customer, name='search_customer'),
+    path('login', views.login_user, name='login'),
+    path('logout', views.signout_user, name='logout'),
 
 
 

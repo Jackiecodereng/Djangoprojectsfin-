@@ -147,3 +147,5 @@ MESSAGE_TAGS = {
     messages.WARNING: 'alert-warning',
     messages.ERROR: 'alert-danger',
 }
+#for the login
+LOGIN_URL = 'login'
